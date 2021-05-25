@@ -1,0 +1,173 @@
+html {
+    height: 100%;
+  }
+  
+  html body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 90%;
+  }
+  
+  html body .normal-text {
+    text-transform: none;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #000;
+    color: seashell;
+  }
+  
+  .nav-bar {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(180, 93, 93);
+    min-height: 4.312rem;
+    max-width: 81.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid seashell;
+  }
+  
+  .nav-bar .logo {
+    margin-left: 0.625rem;
+    max-height: 3.125rem;
+  }
+  
+  .nav-bar .link-pages a {
+    color: seashell;
+    margin: 0.625rem;
+  }
+  
+  .inner {
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    height: inherit;
+  }
+  
+  .inner .mission {
+    padding-top: 70px;
+    max-height: 43.75rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .inner .description {
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translate(0, -45%);
+            transform: translate(0, -45%);
+    background-color: rgb(218, 132, 132);
+  }
+  
+  .main-header {
+    width: 100%;
+    max-width: 62.5rem;
+    margin: 0 auto;
+    height: inherit;
+    margin-top: 3.75rem;
+  }
+  
+  .main-header .photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .main-header .photos img {
+    height: 12.5rem;
+  }
+  
+  .main-header .photos h4 {
+    margin-top: 0.625rem;
+  }
+  
+  .main-header .photos #margin-photo1 {
+    margin: 0 50px 0 50px;
+  }
+  
+  .main-header .photos #margin-photo2 {
+    margin: 0 0 0 50px;
+  }
+  
+  .location {
+    background-image: url(../image/img-locations-background.jpg);
+    min-height: 31.25rem;
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .location .addresses-container {
+    margin-top: 3.125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+  }
+  
+  .location .addresses-container h2 {
+    padding-bottom: 15px;
+  }
+  
+  .location .addresses-container .addresses {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .location .addresses-container .address {
+    background-color: rgb(243, 134, 134);
+    width: 18.75rem;
+    line-height: 150%;
+  }
+  
+  .location .addresses-container #address1 {
+    margin: 0 2.5rem;
+  }
+  
+  #footer {
+    height: 12.5rem;
+  }
+  
+  #copyright {
+    text-align: left;
+    padding: 0 0 1.875rem 1.25rem;
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .mission img, .nav-bar {
+      width: 100%;
+    }
+  }

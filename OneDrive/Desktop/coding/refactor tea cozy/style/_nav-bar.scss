@@ -1,0 +1,19 @@
+.nav-bar {
+    position: fixed;
+    z-index: 1;
+    background-color: $background-color;
+    min-height: 4.312rem;
+    max-width: 81.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $text-color;
+    .logo {
+        margin-left: 0.625rem;
+        max-height: 3.125rem ;
+    }
+    .link-pages a {
+        color: $text-color;
+        margin: 0.625rem;
+    }
+}

@@ -1,0 +1,19 @@
+.inner {
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    height: inherit;
+    
+    .mission {
+        padding-top: 70px;
+        min-height: 43.75rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .description {
+        position: absolute;
+        top: 45%;
+        transform: translate(0, -45%);                        
+        background-color: $background-color;
+    }
+}

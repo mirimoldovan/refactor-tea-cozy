@@ -1,0 +1,29 @@
+.location {
+    background-image: url(../image/img-locations-background.jpg);                 
+    min-height: 31.25rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    .addresses-container {
+        margin-top: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        h2 {
+            padding-bottom: 15px;
+        }
+        .addresses {
+            display: flex;
+        }
+        .address {
+            background-color: $background-color;
+            width: 18.75rem; 
+            line-height: 150%;
+        }
+        #address1 {
+            margin: 0 2.5rem;
+        }
+    } 
+}

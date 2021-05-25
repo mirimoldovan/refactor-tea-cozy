@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./body";
+@import "./wrapper";
+@import "./nav-bar";
+@import "./inner";
+@import "./main-header";
+@import "./location";
+
+
+#footer {
+    height: 12.5rem;
+}
+#copyright {
+    text-align: left;
+    padding: 0 0 1.875rem 1.25rem;
+}
+@media only screen and (min-width: 400px) {
+    .mission img, .nav-bar {
+        width: 100%;
+    }
+}
